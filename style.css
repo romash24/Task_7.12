@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet');
+
+html,
+body {
+    margin: 0 auto;
+    padding: 0 !important;
+    box-sizing: border-box;
+    font-size: 1rem;
+    max-width: 1920px;
+    height: 100%;
+}
+
+h1,
+h2,
+h4,
+p,
+.button,
+.section_fourth li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.h1,
+h1 {
+    font-size: 3rem;
+}
+
+.h2,
+h2 {
+    font-size: 2rem;
+}
+
+.section {
+    width: 1920px;
+    padding: 0;
+}
+
+.container {
+    width: 1113px;
+    padding: 0;
+}
+
+.section_first {
+    background: #EEEFF1;
+}
+
+.logo_menu,
+.write_me {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 57px;
+}
+
+.write_me {
+    margin-bottom: 146px;
+}
+
+.navbar {
+    padding: 0;
+    margin-top: 79px;
+}
+
+.navbar li {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+    margin-right: 36px;
+}
+
+.nav-link {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 26px;
+    color: #000000;
+}
+
+.dropdown-menu {
+    display: none;
+    border: none;
+    outline: none;
+    /*margin-left: -1em;*/
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#dropdownMenuButton {
+    position: absolute;
+    top: 1em;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.row_2 {
+    margin-top: 162px;
+}
+
+p,
+h1 {
+    margin-bottom: 60px;
+}
+
+.button_write {
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: #ffffff;
+}
+
+.about_me {
+    margin-top: 112px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.p_text {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section_third,
+.section_tenth {
+    background: #34547A;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.img_gallery {
+    width: 46.6px;
+    height: 50px;
+}
+
+.p_project {
+    color: #ffffff;
+}
+
+.section_fifth,
+.section_eight {
+    background: #EEEFF1;
+}
+
+.work {
+    margin-top: 100px;
+}
+
+.video {
+    margin-bottom: 100px;
+}
+
+#inputMessage {
+    height: 175px;
+}
+
+.section_fourth li {
+    list-style-type: none;
+}
+
+.desc {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #34547A;
+    color: #C4C4C4;
+}
+
+.desc:nth-child(n+2) {
+    color: #727272;
+}
+
+.my_skills {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.h2_skills {
+    padding-left: 30px;
+}
+
+.my_skills_2 {
+    margin-top: 70px;
+    padding-left: 40px;
+}
+
+.section_sixth img {
+    width: 480px;
+    height: 480px;
+}
+
+.container-fluid {
+    width: 1920px;
+    max-width: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.view {
+    z-index: 1;
+    max-width: 100px;
+    max-height: 100px;
+    position: absolute;
+    top: 3300px;
+    left: 680px;
+}
+
+.section_seventh {
+    margin-bottom: 50px;
+}
+
+.section_seventh .row {
+    width: 1100px;
+}
+
+.logo_micr {
+    width: 255px;
+    height: 120px;
+}
+
+.section_eight {
+    padding-top: 50px;
+}
+
+.my_form {
+    text-align: center;
+}
+
+.text_site {
+    width: 100%;
+}
+
+.input_text {
+    height: 50px;
+    width: 45%;
+}
+
+.my_form_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_form {
+    resize: none;
+}
+
+.my_form .button_write {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.text_footer {
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.vk_footer {
+    text-align: end;
+    align-self: center;
+}
+
+.vk_footer img {
+    padding-right: 20px;
+}
